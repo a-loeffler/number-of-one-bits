@@ -42,7 +42,7 @@ notation. Therefore, in Example 3, the input represents the signed integer. -3.
   ```
 #### Conclusion:
 * This approach ended up working more slowly than expected.  Looping approaches that I researched appeared to be faster.
-  * I believe this is due to the calculation work being time-costly.  If there were a way to use the same approach with just one calculation on the entire input binary number, this approach might end up being faster than looping.
+  * I believe this is due to the calculation work being time-costly.  If there were a way to use the same approach with just one calculation on the entire input binary number, this approach might end up being faster than looping. It did appear to be more memory efficient, since minimal additional variables were created.
   * Results:
     * Runtime: 125 ms, faster than 6.08% of JavaScript online submissions for Number of 1 Bits.
     * Memory Usage: 39.8 MB, less than 97.12% of JavaScript online submissions for Number of 1 Bits.
